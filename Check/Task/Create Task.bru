@@ -1,0 +1,27 @@
+meta {
+  name: Create Task
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/api/task/project/:projectId/workspace/:workspaceId/create
+  body: json
+  auth: inherit
+}
+
+params:path {
+  projectId: 67e7b61ca601d1d84a38cbdd
+  workspaceId: 67d2b9043b4c72297884a9f4
+}
+
+body:json {
+  {
+    "title":"Express Server",
+    "description":"Create the server",
+    "priority":"MEDIUM",
+    "status":"TODO",
+    "assignedTo":null,
+    "dueDate":"2025-04-01T23:59:59Z"
+  }
+}

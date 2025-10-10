@@ -1,0 +1,16 @@
+meta {
+  name: Delete Project
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:8000/api/project/:id/workspace/:workspaceId/delete
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 67e66c73c18d1bcfa0266f29
+  workspaceId: 67d2b9043b4c72297884a9f4
+}

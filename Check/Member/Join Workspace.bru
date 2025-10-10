@@ -1,0 +1,15 @@
+meta {
+  name: Join Workspace
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/member/workspace/:inviteCode/join
+  body: json
+  auth: inherit
+}
+
+params:path {
+  inviteCode: e1ee31c1
+}

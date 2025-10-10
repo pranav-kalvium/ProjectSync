@@ -1,0 +1,23 @@
+meta {
+  name: Update Project
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:8000/api/project/:id/workspace/:workspaceId/update
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 67ebd49fcb0cd09f58c152b6
+  workspaceId: 67ebd425cb0cd09f58c152a1
+}
+
+body:json {
+  {
+    "name":"Frontend Design",
+    "description":"This is tempuser29134's Design project"
+  }
+}

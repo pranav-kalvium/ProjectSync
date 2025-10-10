@@ -1,0 +1,22 @@
+meta {
+  name: Update Workspace
+  type: http
+  seq: 7
+}
+
+put {
+  url: http://localhost:8000/api/workspace/update/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 67ebd425cb0cd09f58c152a1
+}
+
+body:json {
+  {
+    "name":"Design Team 1",
+    "description":"This is the design Team 1 Workspace for Designing"
+  }
+}

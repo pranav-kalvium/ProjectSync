@@ -1,0 +1,15 @@
+meta {
+  name: Get All Projects
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8000/api/project/workspace/:workspaceId/all
+  body: none
+  auth: inherit
+}
+
+params:path {
+  workspaceId: 67ebd425cb0cd09f58c152a1
+}

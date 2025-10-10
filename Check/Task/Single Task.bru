@@ -1,0 +1,17 @@
+meta {
+  name: Single Task
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8000/api/task/:id/project/:projectId/workspace/:workspaceId
+  body: none
+  auth: inherit
+}
+
+params:path {
+  workspaceId: 67d2b9043b4c72297884a9f4
+  id: 67e7bbf4eb070ee7bf992515
+  projectId: 67e7b61ca601d1d84a38cbdd
+}

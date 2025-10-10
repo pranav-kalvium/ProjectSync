@@ -1,0 +1,22 @@
+meta {
+  name: Change Member Role
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:8000/api/workspace/change/member/role/:id
+  body: json
+  auth: inherit
+}
+
+params:path {
+  id: 67e63a647bb71f971b09d557
+}
+
+body:json {
+  {
+    "roleId":"67d1265961e75a0eac36a6a3",
+    "memberId":"67e63ef87bb71f971b09d57e"
+  }
+}

@@ -1,0 +1,18 @@
+meta {
+  name: Create Project
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/api/project/workspace/67ebd425cb0cd09f58c152a1/create
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name":"Frontend",
+    "description":"This is tempuser29134's project"
+  }
+}

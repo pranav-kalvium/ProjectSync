@@ -1,0 +1,16 @@
+meta {
+  name: Delete Task
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:8000/api/task/:id/workspace/:workspaceId/delete
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 67e7bbf4eb070ee7bf992515
+  workspaceId: 67d2b9043b4c72297884a9f4
+}
