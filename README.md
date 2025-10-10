@@ -1,5 +1,5 @@
-#ProjectSync
-# OpusSync - Multi-Tenancy Project Management System
+# ProjectSync
+# ProjectSync - Multi-Tenancy Project Management System
 
 ## Project Idea
 OpusSync is a multi-tenancy project management system built using the MERN stack. It is designed to help teams and organizations efficiently manage projects, tasks, and collaboration. The system includes role-based authentication, real-time collaboration, analytics, scheduling, and notifications, making it a powerful and scalable project management solution. The platform will be deployed on **Vercel (frontend), Render (backend), and MongoDB Atlas (database)**, with additional technologies like **Tailwind CSS, Socket.io, livekit**.
