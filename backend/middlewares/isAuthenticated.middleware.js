@@ -1,4 +1,3 @@
-// middleware/isAuthenticated.js
 const jwt = require("jsonwebtoken");
 const { UnauthorizedException } = require("../utils/appError");
 const User = require("../models/user.model");
