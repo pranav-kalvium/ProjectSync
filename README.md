@@ -103,6 +103,4 @@ OpusSync is a multi-tenancy project management system built using the MERN stack
 
 ---
 
-## Deployment 
-Frontend: https://opussync.netlify.app
-Backend : https://api-opus-sync.onrender.com
+
